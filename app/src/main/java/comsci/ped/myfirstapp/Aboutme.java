@@ -63,7 +63,7 @@ public class Aboutme extends AppCompatActivity {
 
     public void onClickfacebook (View view){
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("https://www.facebook.com/pkraksasook"));
+        intent.setData(Uri.parse("https://www.facebook.com/PedSiraphob"));
         startActivity(intent);
     }
 

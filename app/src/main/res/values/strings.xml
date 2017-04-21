@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">My First App</string>
-    <string name="txtitle">ป้ายจราจร</string>
+    <string name="app_name">myfirstapp</string>
+    <string name="txttitle">ป้ายจราจร</string>
     <string name="moreInfo">More Info</string>
     <string name="aboutMe">About Me</string>
     <string name="faceebook">FaceBook</string>

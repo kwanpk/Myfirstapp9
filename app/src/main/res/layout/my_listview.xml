@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/my_icon"
+        android:layout_height="@dimen/my_icon"
+        app:srcCompat="@drawable/traffic_01"
+        android:id="@+id/imvIcon"
+        android:layout_margin="@dimen/my_margin" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/txtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTitleliv"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="@dimen/h2" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDetailLiv"
+            android:textSize="@dimen/h3" />
+    </LinearLayout>
+
+</LinearLayout>

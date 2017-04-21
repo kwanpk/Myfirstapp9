@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="txtitle">ป้ายจราจร</string>
+    <string name="moreInfo">More Info</string>
+    <string name="aboutMe">About Me</string>
+    <string name="faceebook">FaceBook</string>
+
+    <string name="name"><b>ชื่อ</b> นายสิรภพ ศิริจิราพันธ์</string>
+    <string name="IDname"><b>รหัสนักศึกษา</b> 5711020660077</string>
+    <string name="Faulty"><b>หลักสูตร</b> วิทยาการคอมพิวเตอร์ </string>
+    <string name="phone"><b>เบอร์โทร</b> 0923914106</string>
+</resources>

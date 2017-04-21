@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="comsci.ped.myfirstapp.Detail">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="clickback"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/txtTitleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textSize="@dimen/h1" />
+
+    <ImageView
+        android:id="@+id/imvImageDetail"
+        android:layout_width="@dimen/my_picture"
+        android:layout_height="@dimen/my_picture"
+        android:layout_below="@+id/txtTitleDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/my_margin"
+        app:srcCompat="@drawable/traffic_01" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnBack"
+        android:layout_below="@+id/imvImageDetail"
+        android:layout_margin="@dimen/my_margin"
+        android:background="#c3ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDetailScroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="@dimen/h3" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
